@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="solution.css">
+<title>WHAT TO DO;</title>
+<style>
+    #pp{
+        font-size: 28px;
+    }
+    #date{
+        width: 400px;
+        height: 90px;
+
+}
+#answer{
+    width: 300px;
+    height: 70px;
+}
+
+</style>
+ 
+
+</head>
+<body>
+   
+    <!-- header -->
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="issues.html">ISSUES</a></li>
+                <li><a href="solution.html">SOLUTION</a></li>
+                <li><a href="about.html">ABOUT US</a></li>              
+            </ul>
+        </nav>
+    </header>
+
+ 
+    <img  src="save.jpg" width="1860px" height="1000px">
+    <center><h1>LET'S TAKE A STEP TO SAVE MOTHER EARTH</h1></center>
+    <h1>AFFORESTATION</h1>
+    <p id="pp">
+Afforestation is the establishment of a forest or stand of trees in an area where there was no previous tree cover. 
+<br><br>Facts :-<br>
+1.A tree can sequester up to 150 kilograms of carbon dioxide per year. <br>
+2.Using wood for construction saves about 40 percent of carbon emissions in comparison to concrete, and about 30 percent in comparison to steel.
+</p>
+<label><h1>ENTER THE YEAR YOU WERE BORN:-</h1></label>
+<INPUT type="number" id="date">
+    <input type="button" id="answer" value="calculate" onclick="cal()">
+    <div class="RES"></div>
+<script>
+function cal(){
+    var n1=2022;
+    var n2=(document.getElementById("date").value);
+  val=n1-n2;
+    alert("YOU SHOUD PLANT "+val+" TREES TILL THE END OF 2022");
+
+}
+</script>
+
+
+
+</body>
+<html>
